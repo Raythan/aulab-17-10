@@ -6,7 +6,7 @@
 	width: 100%;
 }
 #divTopo {
-	width: 500px;
+	width: 32%;
 	margin: 10px auto 20px auto;
 }
 #divMenuTopo {
@@ -35,13 +35,11 @@
 	width: 80%;
 	border-top: 5px solid #DAA520;
 	border-bottom: 5px solid #DAA520;
-	//background-color: #bbb;
 	padding: .5%;
 	float: left;
 }
 #divCorpoIn2 {
-	width: 220px;
-	//background-color: #aaa;
+	width: 15%;
 	float: left;
 }
 #imagemCorpo {
@@ -50,15 +48,16 @@
 	border: 2px solid blue;
 }
 #rodape {
-	width: 99%;
 	margin-left: auto;
 	margin-right: auto;
-	//background-color: #104E8B;
 	background-image: linear-gradient(to bottom, #104E8B, #000090);
 	text-align: right;
 	font-size: 90%;
 	padding: .5%;
-	float: left;
+	position: fixed;
+	bottom: .5%;
+	left: .5%;
+	width: 98%;
 }
 #imagemRodape {
 	width: 10%;
